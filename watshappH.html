@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="WatshappStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="Hlogo.png" class="logo">
+        <ul>
+            <li><a href="IndexHack.html">Acceuil</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#">Nos prix</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="WhatsAppOO.png" alt="" class="image">
+        <h3>Saisissez correctement le pays et le numéro du compte WhatsApp que vous souhaitez pirater</h3>
+        <p>WhatsApp Hack version: v.16.3.4 - 2024</p>
+    </section>
+    <div class="flex">
+    <select class="pays" id="pays" onchange="updateIndicatif()">
+        <option value="SN">Sénégal</option>
+        <option value="AF">Afghanistan</option>
+        <option value="ZA">Afrique du sud</option>
+        <option value="AX">Åland, îles</option>
+        <option value="AL">Albanie</option>
+        <option value="DZ">Algérie</option>
+        <option value="DE">Allemagne</option>
+        <option value="AD">Andorre</option>
+        <option value="AO">Angola</option>
+        <option value="AI">Anguilla</option>
+        <option value="AQ">Antarctique</option>
+        <option value="AG">Antigua et barbuda</option>
+        <option value="SA">Arabie saoudite</option>
+        <option value="AR">Argentine</option>
+        <option value="AM">Arménie</option>
+        <option value="AW">Aruba</option>
+        <option value="AU">Australie</option>
+        <option value="AT">Autriche</option>
+        <option value="AZ">Azerbaïdjan</option>
+        <option value="BS">Bahamas</option>
+        <option value="BH">Bahreïn</option>
+        <option value="BD">Bangladesh</option>
+        <option value="BB">Barbade</option>
+        <option value="BY">Bélarus</option>
+        <option value="BE">Belgique</option>
+        <option value="BZ">Belize</option>
+        <option value="BJ">Bénin</option>
+        <option value="BM">Bermudes</option>
+        <option value="BT">Bhoutan</option>
+        <option value="BO">Bolivie, l'état plurinational de</option>
+        <option value="BQ">Bonaire, saint eustache et saba</option>
+        <option value="BA">Bosnie herzégovine</option>
+        <option value="BW">Botswana</option>
+        <option value="BV">Bouvet, île</option>
+        <option value="BR">Brésil</option>
+        <option value="BN">Brunei darussalam</option>
+        <option value="BG">Bulgarie</option>
+        <option value="BF">Burkina faso</option>
+        <option value="BI">Burundi</option>
+        <option value="CA">Canada</option>
+        <option value="KY">Caïmans, îles</option>
+        <option value="KH">Cambodge</option>
+        <option value="CM">Cameroun</option>
+        <option value="CV">Cap vert</option>
+        <option value="CF">Centrafricaine, république</option>
+        <option value="CL">Chili</option>
+        <option value="CN">Chine</option>
+        <option value="CX">Christmas, île</option>
+        <option value="CY">Chypre</option>
+        <option value="CC">Cocos (keeling), îles</option>
+        <option value="CO">Colombie</option>
+        <option value="KM">Comores</option>
+        <option value="CG">Congo</option>
+        <option value="CD">Congo, la république démocratique du</option>
+        <option value="CK">Cook, îles</option>
+        <option value="KR">Corée, république de</option>
+        <option value="KP">Corée, république populaire démocratique de</option>
+        <option value="CR">Costa rica</option>
+        <option value="CI">Côte d'ivoire</option>
+        <option value="HR">Croatie</option>
+        <option value="CU">Cuba</option>
+        <option value="CW">Curaçao</option>
+        <option value="DK">Danemark</option>
+        <option value="DJ">Djibouti</option>
+        <option value="DO">Dominicaine, république</option>
+        <option value="DM">Dominique</option>
+        <option value="EG">Égypte</option>
+        <option value="SV">El salvador</option>
+        <option value="AE">Émirats arabes unis</option>
+        <option value="EC">Équateur</option>
+        <option value="ER">Érythrée</option>
+        <option value="ES">Espagne</option>
+        <option value="EE">Estonie</option>
+        <option value="US">États unis</option>
+        <option value="ET">Éthiopie</option>
+        <option value="FK">Falkland, îles (malvinas)</option>
+        <option value="FO">Féroé, îles</option>
+        <option value="FJ">Fidji</option>
+        <option value="FI">Finlande</option>
+        <option value="FR">France</option>
+        <option value="GA">Gabon</option>
+        <option value="GM">Gambie</option>
+        <option value="GE">Géorgie</option>
+        <option value="GS">Géorgie du sud et les îles sandwich du sud</option>
+        <option value="GH">Ghana</option>
+        <option value="GI">Gibraltar</option>
+        <option value="GR">Grèce</option>
+        <option value="GD">Grenade</option>
+        <option value="GL">Groenland</option>
+        <option value="GP">Guadeloupe</option>
+        <option value="GU">Guam</option>
+        <option value="GT">Guatemala</option>
+        <option value="GG">Guernesey</option>
+        <option value="GN">Guinée</option>
+        <option value="GW">Guinée bissau</option>
+        <option value="GQ">Guinée équatoriale</option>
+        <option value="GY">Guyana</option>
+        <option value="GF">Guyane française</option>
+        <option value="HT">Haïti</option>
+        <option value="HM">Heard et îles macdonald, île</option>
+        <option value="HN">Honduras</option>
+        <option value="HK">Hong kong</option>
+        <option value="HU">Hongrie</option>
+        <option value="IM">Île de man</option>
+        <option value="UM">Îles mineures éloignées des états unis</option>
+        <option value="VG">Îles vierges britanniques</option>
+        <option value="VI">Îles vierges des états unis</option>
+        <option value="IN">Inde</option>
+        <option value="ID">Indonésie</option>
+        <option value="IR">Iran, république islamique d'</option>
+        <option value="IQ">Iraq</option>
+        <option value="IE">Irlande</option>
+        <option value="IS">Islande</option>
+        <option value="IL">Israël</option>
+        <option value="IT">Italie</option>
+        <option value="JM">Jamaïque</option>
+        <option value="JP">Japon</option>
+        <option value="JE">Jersey</option>
+        <option value="JO">Jordanie</option>
+        <option value="KZ">Kazakhstan</option>
+        <option value="KE">Kenya</option>
+        <option value="KG">Kirghizistan</option>
+        <option value="KI">Kiribati</option>
+        <option value="KW">Koweït</option>
+        <option value="LA">Lao, république démocratique populaire</option>
+        <option value="LS">Lesotho</option>
+        <option value="LV">Lettonie</option>
+        <option value="LB">Liban</option>
+        <option value="LR">Libéria</option>
+        <option value="LY">Libye</option>
+        <option value="LI">Liechtenstein</option>
+        <option value="LT">Lituanie</option>
+        <option value="LU">Luxembourg</option>
+        <option value="MO">Macao</option>
+        <option value="MK">Macédoine, l'ex république yougoslave de</option>
+        <option value="MG">Madagascar</option>
+        <option value="MY">Malaisie</option>
+        <option value="MW">Malawi</option>
+        <option value="MV">Maldives</option>
+        <option value="ML">Mali</option>
+        <option value="MT">Malte</option>
+        <option value="MP">Mariannes du nord, îles</option>
+        <option value="MA">Maroc</option>
+        <option value="MH">Marshall, îles</option>
+        <option value="MQ">Martinique</option>
+        <option value="MU">Maurice</option>
+        <option value="MR">Mauritanie</option>
+        <option value="YT">Mayotte</option>
+        <option value="MX">Mexique</option>
+        <option value="FM">Micronésie, états fédérés de</option>
+        <option value="MD">Moldova, république de</option>
+        <option value="MC">Monaco</option>
+        <option value="MN">Mongolie</option>
+        <option value="ME">Monténégro</option>
+        <option value="MS">Montserrat</option>
+        <option value="MZ">Mozambique</option>
+        <option value="MM">Myanmar</option>
+        <option value="NA">Namibie</option>
+        <option value="NR">Nauru</option>
+        <option value="NP">Népal</option>
+        <option value="NI">Nicaragua</option>
+        <option value="NE">Niger</option>
+        <option value="NG">Nigéria</option>
+        <option value="NU">Niué</option>
+        <option value="NF">Norfolk, île</option>
+        <option value="NO">Norvège</option>
+        <option value="NC">Nouvelle calédonie</option>
+        <option value="NZ">Nouvelle zélande</option>
+        <option value="IO">Océan indien, territoire britannique de l'</option>
+        <option value="OM">Oman</option>
+        <option value="UG">Ouganda</option>
+        <option value="UZ">Ouzbékistan</option>
+        <option value="PK">Pakistan</option>
+        <option value="PW">Palaos</option>
+        <option value="PS">Palestinien occupé, territoire</option>
+        <option value="PA">Panama</option>
+        <option value="PG">Papouasie nouvelle guinée</option>
+        <option value="PY">Paraguay</option>
+        <option value="NL">Pays bas</option>
+        <option value="PE">Pérou</option>
+        <option value="PH">Philippines</option>
+        <option value="PN">Pitcairn</option>
+        <option value="PL">Pologne</option>
+        <option value="PF">Polynésie française</option>
+        <option value="PR">Porto rico</option>
+        <option value="PT">Portugal</option>
+        <option value="QA">Qatar</option>
+        <option value="RE">Réunion</option>
+        <option value="RO">Roumanie</option>
+        <option value="GB">Royaume uni</option>
+        <option value="RU">Russie, fédération de</option>
+        <option value="RW">Rwanda</option>
+        <option value="EH">Sahara occidental</option>
+        <option value="BL">Saint barthélemy</option>
+        <option value="SH">Sainte hélène, ascension et tristan da cunha</option>
+        <option value="LC">Sainte lucie</option>
+        <option value="KN">Saint kitts et nevis</option>
+        <option value="SM">Saint marin</option>
+        <option value="MF">Saint martin(partie française)</option>
+        <option value="SX">Saint martin (partie néerlandaise)</option>
+        <option value="PM">Saint pierre et miquelon</option>
+        <option value="VA">Saint siège (état de la cité du vatican)</option>
+        <option value="VC">Saint vincent et les grenadines</option>
+        <option value="SB">Salomon, îles</option>
+        <option value="WS">Samoa</option>
+        <option value="AS">Samoa américaines</option>
+        <option value="ST">Sao tomé et principe</option>
+        <option value="RS">Serbie</option>
+        <option value="SC">Seychelles</option>
+        <option value="SL">Sierra leone</option>
+        <option value="SG">Singapour</option>
+        <option value="SK">Slovaquie</option>
+        <option value="SI">Slovénie</option>
+        <option value="SO">Somalie</option>
+        <option value="SD">Soudan</option>
+        <option value="SS">Soudan du sud</option>
+        <option value="LK">Sri lanka</option>
+        <option value="SE">Suède</option>
+        <option value="CH">Suisse</option>
+        <option value="SR">Suriname</option>
+        <option value="SJ">Svalbard et île jan mayen</option>
+        <option value="SZ">Swaziland</option>
+        <option value="SY">Syrienne, république arabe</option>
+        <option value="TJ">Tadjikistan</option>
+        <option value="TW">Taïwan, province de chine</option>
+        <option value="TZ">Tanzanie, république unie de</option>
+        <option value="TD">Tchad</option>
+        <option value="CZ">Tchèque, république</option>
+        <option value="TF">Terres australes françaises</option>
+        <option value="TH">Thaïlande</option>
+        <option value="TL">Timor leste</option>
+        <option value="TG">Togo</option>
+        <option value="TK">Tokelau</option>
+        <option value="TO">Tonga</option>
+        <option value="TT">Trinité et tobago</option>
+        <option value="TN">Tunisie</option>
+        <option value="TM">Turkménistan</option>
+        <option value="TC">Turks et caïcos, îles</option>
+        <option value="TR">Turquie</option>
+        <option value="TV">Tuvalu</option>
+        <option value="UA">Ukraine</option>
+        <option value="UY">Uruguay</option>
+        <option value="VU">Vanuatu</option>
+        <option value="VE">Venezuela, république bolivarienne du</option>
+        <option value="VN">Viet nam</option>
+        <option value="WF">Wallis et futuna</option>
+        <option value="YE">Yémen</option>
+        <option value="ZM">Zambie</option>
+        <option value="ZW">Zimbabwe​​​​​</option>
+    </select>
+    <input class="indicatif" id="indicatif" type="tel" placeholder="Saisir le numéro à pirater">
+    </div>
+    <input type="tel" class="payment" placeholder="veuillez saisir le numéro qui a fait le transfert" id="ancre">
+    <div class="loader-container" id="loader-container">
+        <div class="loader"></div>
+        <p id="loading-text">Chargement en cours...</p>
+      </div>
+      <button id="load-button" class="btt"> Hack now</button>
+    <p>Waiting for verification to continue.</p>
+    <div class="astuce "><p>vous pouvez payez au <span>+221781711387</span> par Wave ou OM une fois le payement éffectuer vous mettez le numéro  avec qui vous avez fait le transfert <a href="#ancre">ici</a> aprés l'application passera à la verification du payement afin de vous octroyer le compte<a href="payment.html">Nos tarifs</a></div>
+
+    </div>
+    <footer id="footer" class="experiance">
+        <div class="dash"></div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="dash4"></div>
+        </div>
+        <div class="contact1">
+            <h2 class="question1">Vous avez des questions ?</h2>
+            <h3 class="space">Je suis à votre service</h3>
+        </div>
+        <div class="contact2">
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Appeler sur</h3>
+                <p>781711387</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>m.m.e.t.z.o.9.7.3@gmail.com</p>
+            </div>
+            <!-- <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Localisation</h3>
+                <p>Dakar, Sénégal</p>
+            </div> -->
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Erreur</h2>
+          <p id="modal-message">Aucun paiement n'a été détecté pour le numéro de paiement saisi.</p>
+        </div>
+      </div>
+      
+</body>
+<script>
+	function updateIndicatif() {
+		var select = document.getElementById("pays");
+		var indicatifInput = document.getElementById("indicatif");
+		var selectedOption = select.options[select.selectedIndex];
+		var indicatif = getIndicatif(selectedOption.value);
+		indicatifInput.value = "+" + indicatif;
+	}
+	
+	function getIndicatif(countryCode) {
+    switch (countryCode) {
+        case "CA":
+            return "1";
+        case "AF":
+            return "93";
+        case "ZA":
+            return "27";
+        case "AX":
+            return "358";
+        case "AL":
+            return "355";
+        case "DZ":
+            return "213";
+        case "DE":
+            return "49";
+        case "AD":
+            return "376";
+        case "AO":
+            return "244";
+        case "AI":
+            return "1-264";
+        case "AQ":
+            return "";
+        case "AG":
+            return "1-268";
+        case "SA":
+            return "966";
+        case "AR":
+            return "54";
+        case "AM":
+            return "374";
+        case "AW":
+            return "297";
+        case "AU":
+            return "61";
+        case "AT":
+            return "43";
+        case "AZ":
+            return "994";
+        case "BS":
+            return "1-242";
+        case "BH":
+            return "973";
+        case "BD":
+            return "880";
+        case "BB":
+            return "1-246";
+        case "BY":
+            return "375";
+        case "BE":
+            return "32";
+        case "BZ":
+            return "501";
+        case "BJ":
+            return "229";
+        case "BM":
+            return "1-441";
+        case "BT":
+            return "975";
+        case "BO":
+            return "591";
+        case "BQ":
+            return "599";
+        case "BA":
+            return "387";
+        case "BW":
+            return "267";
+        case "BV":
+            return "";
+        case "BR":
+            return "55";
+        case "BN":
+            return "673";
+        case "BG":
+            return "359";
+        case "BF":
+            return "226";
+        case "BI":
+            return "257";
+        case "KY":
+            return "1-345";
+        case "KH":
+            return "855";
+        case "CM":
+            return "237";
+        case "CV":
+            return "238";
+        case "CF":
+            return "236";
+        case "CL":
+            return "56";
+        case "CN":
+            return "86";
+        case "CX":
+            return "61";
+        case "CY":
+            return "357";
+        case "CC":
+            return "61";
+        case "CO":
+            return "57";
+        case "KM":
+            return "269";
+        case "CG":
+            return "242";
+        case "CD":
+            return "243";
+        case "CK":
+            return "682";
+        case "KR":
+            return "82";
+        case "KP":
+            return "850";
+        case "CR":
+            return "506";
+        case "CI":
+            return "225";
+        case "HR":
+            return "385";
+        case "CU":
+            return "53";
+        case "CW":
+            return "599";
+        case "DK":
+            return "45";
+        case "DJ":
+            return "253";
+        case "DO":
+            return "1-809";
+        case "DM":
+            return "1-767";
+        case "EG":
+            return "20";
+        case "SV":
+            return "503";
+        case "AE":
+            return "971";
+        case "EC":
+            return "593";
+        case "ER":
+            return "291";
+        case "ES":
+            return "34";
+        case "EE":
+            return "372";
+        case "US":
+            return "1";
+        case "ET":
+            return "251";
+        case "FK":
+            return "500";
+        case "FO":
+            return "298";
+        case "FJ":
+            return "679";
+        case "FI":
+            return "358";
+        case "FR":
+            return "33";
+        case "GA":
+            return "241";
+        case "GM":
+            return "220";
+        case "GE":
+            return "995";
+        case "GS":
+            return "";
+        case "GH":
+            return "233";
+        case "GI":
+            return "350";
+        case "GR":
+            return "30";
+        case "GD":
+            return "1-473";
+        case "GL":
+            return "299";
+        case "GP":
+            return "590";
+        case "GU":
+            return "1-671";
+        case "GT":
+            return "502";
+        case "GG":
+            return "44";
+        case "GN":
+            return "224";
+        case "GW":
+            return "245";
+        case "GQ":
+            return "240";
+        case "GY":
+            return "592";
+        case "GF":
+            return "594";
+        case "HT":
+            return "509";
+        case "HM":
+            return "";
+        case "HN":
+            return "504";
+        case "HK":
+            return "852";
+        case "HU":
+            return "36";
+        case "IM":
+            return "44";
+        case "UM":
+            return "";
+        case "VG":
+            return "1-284";
+        case "VI":
+            return "1-340";
+        case "IN":
+            return "91";
+        case "ID":
+            return "62";
+        case "IR":
+            return "98";
+        case "IQ":
+            return "964";
+        case "IE":
+            return "353";
+        case "IS":
+            return "354";
+        case "IL":
+            return "972";
+        case "IT":
+            return "39";
+        case "JM":
+            return "1-876";
+        case "JP":
+            return "81";
+        case "JE":
+            return "44";
+        case "JO":
+            return "962";
+        case "KZ":
+            return "7";
+        case "KE":
+            return "254";
+        case "KG":
+            return "996";
+        case "KI":
+            return "686";
+        case "KW":
+            return "965";
+        case "LA":
+            return "856";
+        case "LS":
+            return "266";
+        case "LV":
+            return "371";
+        case "LB":
+            return "961";
+        case "LR":
+            return "231";
+        case "LY":
+            return "218";
+        case "LI":
+            return "423";
+        case "LT":
+            return "370";
+        case "LU":
+            return "352";
+        case "MO":
+            return "853";
+        case "MK":
+            return "389";
+        case "MG":
+            return "261";
+        case "MY":
+            return "60";
+        case "MW":
+            return "265";
+        case "MV":
+            return "960";
+        case "ML":
+            return "223";
+        case "MT":
+            return "356";
+        case "MP":
+            return "1-670";
+        case "MA":
+            return "212";
+        case "MH":
+            return "692";
+        case "MQ":
+            return "596";
+        case "MU":
+            return "230";
+        case "MR":
+            return "222";
+        case "YT":
+            return "262";
+        case "MX":
+            return "52";
+        case "FM":
+            return "691";
+        case "MD":
+            return "373";
+        case "MC":
+            return "377";
+        case "MN":
+            return "976";
+        case "ME":
+            return "382";
+        case "MS":
+            return "1-664";
+        case "MZ":
+            return "258";
+        case "MM":
+            return "95";
+        case "NA":
+            return "264";
+        case "NR":
+            return "674";
+        case "NP":
+            return "977";
+        case "NI":
+            return "505";
+        case "NE":
+            return "227";
+        case "NG":
+            return "234";
+        case "NU":
+            return "683";
+        case "NF":
+            return "672";
+        case "NO":
+            return "47";
+        case "NC":
+            return "687";
+        case "NZ":
+            return "64";
+        case "IO":
+            return "";
+        case "OM":
+            return "968";
+        case "UG":
+            return "256";
+        case "UZ":
+            return "998";
+        case "PK":
+            return "92";
+        case "PW":
+            return "680";
+        case "PS":
+            return "970";
+        case "PA":
+            return "507";
+        case "PG":
+            return "675";
+        case "PY":
+            return "595";
+        case "NL":
+            return "31";
+        case "PE":
+            return "51";
+        case "PH":
+            return "63";
+        case "PN":
+            return "64";
+        case "PL":
+            return "48";
+        case "PF":
+            return "689";
+        case "PR":
+            return "1-787";
+        case "PT":
+            return "351";
+        case "QA":
+            return "974";
+        case "RE":
+            return "262";
+        case "RO":
+            return "40";
+        case "GB":
+            return "44";
+        case "RU":
+            return "7";
+        case "RW":
+            return "250";
+        case "EH":
+            return "212";
+        case "BL":
+            return "590";
+        case "SH":
+            return "290";
+        case "LC":
+            return "1-758";
+        case "KN":
+            return "1-869";
+        case "SM":
+            return "378";
+        case "MF":
+            return "590";
+        case "SX":
+            return "1-721";
+        case "PM":
+            return "508";
+        case "VA":
+            return "379";
+        case "VC":
+            return "1-784";
+        case "SB":
+            return "677";
+        case "WS":
+            return "685";
+        case "AS":
+            return "1-684";
+        case "ST":
+            return "239";
+        case "SN":
+            return "221";
+        case "RS":
+            return "381";
+        case "SC":
+            return "248";
+        case "SL":
+            return "232";
+        case "SG":
+            return "65";
+        case "SK":
+            return "421";
+        case "SI":
+            return "386";
+        case "SO":
+            return "252";
+        case "SD":
+            return "249";
+        case "SS":
+            return "211";
+        case "LK":
+            return "94";
+        case "SE":
+            return "46";
+        case "CH":
+            return "41";
+        case "SR":
+            return "597";
+        case "SJ":
+            return "47";
+        case "SZ":
+            return "268";
+        case "SY":
+            return "963";
+        case "TJ":
+            return "992";
+        case "TW":
+            return "886";
+        case "TZ":
+            return "255";
+        case "TD":
+            return "235";
+        case "CZ":
+            return "420";
+        case "TF":
+            return "";
+        case "TH":
+            return "66";
+        case "TL":
+            return "670";
+        case "TG":
+            return "228";
+        case "TK":
+            return "690";
+        case "TO":
+            return "676";
+        case "TT":
+            return "1-868";
+        case "TN":
+            return "216";
+        case "TM":
+            return "993";
+        case "TC":
+            return "1-649";
+        case "TR":
+            return "90";
+        case "TV":
+            return "688";
+        case "UA":
+            return "380";
+        case "UY":
+            return "598";
+        case "VU":
+            return "678";
+        case "VE":
+            return "58";
+        case "VN":
+            return "84";
+        case "WF":
+            return "681";
+        case "YE":
+            return "967";
+        case "ZM":
+            return "260";
+        case "ZW":
+            return "263";
+        default:
+            return "";
+    }
+}
+
+	
+	// Met à jour l'indicatif initial au chargement de la page
+	updateIndicatif();
+
+    document.getElementById('load-button').addEventListener('click', function() {
+    // Afficher le conteneur de chargement
+    document.getElementById('loader-container').style.display = 'flex';
+    // Désactiver le bouton pendant le chargement
+    this.disabled = true;
+    // Récupérer le numéro saisi dans l'input "payment"
+    var numeroPaiement = document.getElementById('ancre').value;
+    // Attendre 10 secondes avant d'afficher la boîte modale
+    setTimeout(function() {
+        // Cacher le conteneur de chargement
+        document.getElementById('loader-container').style.display = 'none';
+        // Réactiver le bouton
+        document.getElementById('load-button').disabled = false;
+        // Construire le message d'erreur avec le numéro de paiement saisi
+        var errorMessage = "Aucun paiement n'a été détecté pour le numéro de paiement " + numeroPaiement + "Veuillez payer au 779732105 par Wave ou Om puis mettez le numéro avec qui vous avez payer";
+        // Afficher la boîte modale avec le message d'erreur
+        showModal(errorMessage);
+    }, 10000); // 10 secondes
+});
+
+// Fonction pour afficher la boîte modale avec un message personnalisé
+function showModal(message) {
+    var modal = document.getElementById("myModal");
+    var modalMessage = document.getElementById("modal-message");
+    modalMessage.innerHTML = message;
+    modal.style.display = "block";
+
+    var closeBtn = document.getElementsByClassName("close")[0];
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
+
+
+	</script>
+</html>

